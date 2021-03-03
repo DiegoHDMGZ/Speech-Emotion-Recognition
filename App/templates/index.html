@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+    <link rel="shortcut icon" href="#">
+</head> 
+
+<body style="background-color:rgba(0, 0, 255, 0.1); ">
+    <header> 
+        <h1>Speech Emotion Recognition - Inteligencia Artificial Avanzada</h1> 
+    </header> 
+	<p>
+		<b>
+			Emociones disponibles : feliz, triste, molesto, neutral
+		</b>
+	</p>
+    <img src="static/audioFeatures.png">
+    <!--button for 'start recording'--> 
+    <p> 
+        <button id="btnStart">GRABAR</button> 
+                
+        <button id="btnStop">DETENER Y PREDECIR</button> 
+        <!--button for 'stop recording'--> 
+    </p> 
+
+    <!--for record--> 
+    <audio hidden = "true" controls></audio> 
+    <!--'controls' use for add play, pause, and volume--> 
+    <!--for play the audio--> 
+    <audio id="adioPlay" controls></audio>
+	<h1 class="label" id="txtLabel">Sin señal</h1>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html> 
