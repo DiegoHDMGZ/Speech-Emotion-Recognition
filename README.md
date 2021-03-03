@@ -1,3 +1,3 @@
 # Speech-Emotion-Recognition
 
-An Speech Emotion Recognition proecjt for Advanced Artificial Intelligence course in National University of Engineering
+An Speech Emotion Recognition project for the Advanced Artificial Intelligence course in National University of Engineering
