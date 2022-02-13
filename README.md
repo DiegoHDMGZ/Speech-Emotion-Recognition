@@ -8,5 +8,5 @@ We used 2 datasets to compare the results : RAVDESS (https://zenodo.org/record/1
 
 # Team Members:
 * Hans Martin Acha Carranza
-* Diego Hurtado de Mendoza González Zúniga
+* Diego Hurtado de Mendoza González Zúñiga
 * Jair Puican Cuadros
